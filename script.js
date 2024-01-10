@@ -69,7 +69,7 @@ function update(){
   var t = document.getElementsByClassName("pText");
   for(i=0;i<a.length;i++){
     a[i].addEventListener("click", function(e){
-      window.location.href = "https://learn.copticwordle.repl.co/lessons/"+e.target.closest(".module").id+".html";
+      window.location.href = "https://beta.learn.thecopticlanguage.com/lessons/"+e.target.closest(".module").id+".html";
       console.log(e.target.parentNode.parentNode.parentNode.id);
     })
     b[i].style.setProperty("--progress", String((data[i]/5)*100)+"%");
