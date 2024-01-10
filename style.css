@@ -1,0 +1,229 @@
+body.lightTheme{
+  color:black;
+  background:white;
+  transition:200ms;
+}
+body.darkTheme{
+  color:white;
+  background:#222;
+  transition:200ms;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 30px 5%;
+}
+
+#logo{
+  height:100%;
+  width:55%;
+  cursor: pointer;
+  font-size: 2vw;
+  display:flex;
+  justify-content: center;
+  border: 0px none;
+  background: rgba(0, 0, 0, 0);
+  transition: color 200ms;
+  color:inherit;
+}
+#logo:active #hide{
+  max-width:100%;
+}
+body.lightTheme #logo{
+  color:black;
+}
+body.darkTheme #logo{
+  color:white;
+}
+#logo a{
+  color:inherit;
+}
+
+#hide {
+  display: inline-block;
+  max-width: 0%;
+  vertical-align: bottom;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 1.5s;
+}
+
+h1{
+  display: flex;
+}
+
+h1:hover #hide{
+  max-width: 100%;
+}
+
+/*cool animation thingy*/
+@keyframes r{
+  0%{transform: rotate(0deg) scaleX(0);}
+  100%{transform: rotate(180deg) scaleX(-1);}
+}
+
+
+#modes{
+  animation: None 0.5s;
+  border:0px none;
+  font-size:3vh;
+  background:none;
+  cursor:pointer;
+}
+#account{
+  border-radius:10px;
+  border: 0px none;
+  background:#c7c7c7;
+  color:#373737;
+  height: fit-content;
+  padding: 1vh 1.5vh;
+  font-size:2.5vh;
+  transition:200ms;
+}
+#account:hover{
+  cursor:pointer;
+}
+body.darkTheme #account{
+  background:#373737;
+  color:#c7c7c7;
+}
+body.lightTheme #account{
+  background:#c7c7c7;
+  color:#373737;
+}
+
+
+/*main*/
+#main{
+  border:0px none;
+  width: 90vw;
+  height: 82vh;
+  background: #ddd5;
+  border-radius: 10px;
+  overflow:auto;
+  /* max-height:100%; */
+  margin: 1em auto;
+}
+#main.darkTheme{
+  background:#373737;
+}
+#main.lightTheme{
+  background:#ddd5;
+}
+#inner{
+  width: 100%;
+  height: fit-content;
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+}
+.unit{
+  width:100%;
+  height: fit-content;
+  padding: 3vh 0px 3vh;
+  border-bottom: medium dashed #7d7d7d;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+.uHead{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5vh;
+}
+.moduleSection{
+  width:95%;
+  position:relative;
+  top:5%;
+  height:fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.module{
+  width:15vh;
+  height:19vh;
+  padding: 10px 10%;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  cursor:pointer;
+}
+.mHead{
+  font-family: "Montserrat", sans-serif;
+  width:fit-content;
+  font-size: .8em;
+  margin-top:0em;
+}
+.progressBar{
+  background:transparent;
+  --progress:50%;
+}
+.progressSVG{
+  height:4.8em;
+  width:4.8em;
+  position:relative;
+  margin:0 auto;
+}
+.progressC{
+  transition: stroke-dashoffset 1s ease;
+}
+.body.lightTheme text{
+  fill: rgb(51, 51, 51);
+}
+.body.darkTheme text{
+  fill: rgb(255, 255, 255);
+}
+progress{
+  visibility:hidden;
+  height:0;
+  width:0;
+}
+@property --progress {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+.pText.darkTheme{
+  fill: rgb(255, 255, 255);
+}
+.pText.lightTheme{
+  fill: rgb(51, 51, 51);
+}
+
+
+
+@media (max-width: 450px){
+  #logo{
+    font-size: 2.7vw;
+  }
+  .uHead{
+    font-size: 2.35vh;
+  }
+  /*redundant*/
+  .mHead{
+    font-size: 1.75vh;
+  }
+  .progressBar{
+    height:10vh;
+    width:10vh;
+  }
+  .module{
+    width:13vh;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 2em 0px 3em;
+  }
+  #account{
+    padding: .5vh 1vh;
+    font-size:2vh;  
+  } 
+  #modes{
+    font-size:2.5vh
+  }
+}

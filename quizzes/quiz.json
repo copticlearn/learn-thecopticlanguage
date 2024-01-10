@@ -1,0 +1,174 @@
+{
+  "u1l1":[
+    {
+      "question":"The Coptic language evolved from Heiroglyphics.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"t"
+    },
+    {
+      "question":"What language did many of the Coptic letters come from?",
+      "type":"mc",
+      "a":"Greek",
+      "b":"Arabic",
+      "c":"Russian",
+      "d":"Hebrew",
+      "ans":"a"
+    },
+    {
+      "question":"Which dialect is primarily used in the Coptic Orthodox Church?",
+      "type":"mc",
+      "a":"Fayyumic",
+      "b":"Sahidic",
+      "c":"Bohairic",
+      "d":"Oxyrhincic",
+      "ans":"c"
+    },
+    {
+      "question":"What happens when you click on the Coptic (grey) text?",
+      "type":"mc",
+      "a":"Nothing",
+      "b":"It is said out loud",
+      "c":"It turns blue",
+      "d":"It turns into english",
+      "ans":"b"
+    },
+    {
+      "question":"The words highlighted in blue are vocabulary words.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"t"
+    }
+  ],
+  "u1l2":[
+    {
+      "question":"The letter <coptic>a</coptic> sounds like \"ah\".",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"t"
+    },
+    {
+      "question":"What sound does the letter <coptic>q</coptic> make?",
+      "type":"mc",
+      "a":"kh",
+      "b":"gh",
+      "c":"g",
+      "d":"k",
+      "ans":"a"
+    },
+    {
+      "question":"What sound does the letter <coptic>y</coptic> make?",
+      "type":"mc",
+      "a":"a",
+      "b":"p",
+      "c":"th",
+      "d":"sh",
+      "ans":"c"
+    },
+    {
+      "question":"What sound does the letter <coptic>[</coptic> make?",
+      "type":"mc",
+      "a":"sh",
+      "b":"ch",
+      "c":"kh",
+      "d":"gh",
+      "ans":"b"
+    },
+    {
+      "question":"The jinkim adds an extra \"a\" sound before the letter it is above",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"f"
+    }
+  ],
+  "u2l1":[
+    {
+      "question":"What is a noun?",
+      "type":"mc",
+      "a":"An action word",
+      "b":"A name",
+      "c":"A description word",
+      "d":"Not a word!",
+      "ans":"b"
+    },
+    {
+      "question":"In Coptic, gender is only for humans.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"f"
+    },
+    {
+      "question":"What is an adjective?",
+      "type":"mc",
+      "a":"An action word",
+      "b":"A name",
+      "c":"A description word",
+      "d":"Not a word!",
+      "ans":"c"
+    },
+    {
+      "question":"Why does gender allow sentence structure to have more variety?",
+      "type":"mc",
+      "a":"More freedom to rearrange sentence order",
+      "b":"More words to choose from",
+      "c":"Nouns can be used for everything",
+      "d":"I have no idea!",
+      "ans":"a"
+    },
+    {
+      "question":"Gender is not very practical for spoken languages.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"t"
+    }
+  ],
+  "u2l2":[
+    {
+      "question":"A definite article is used when referring to something in general.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"f"
+    },
+    {
+      "question":"What does proclitic mean?",
+      "type":"mc",
+      "a":"Attaches to the end of a word",
+      "b":"Attaches to the beginning of a word",
+      "c":"All of the above",
+      "d":"Nothing!",
+      "ans":"b"
+    },
+    {
+      "question":"What is the singular indefinite article in Coptic?",
+      "type":"mc",
+      "a":"<coptic>ou</coptic>",
+      "b":"<coptic>han</coptic>",
+      "c":"<coptic>pi</coptic>",
+      "d":"<coptic>ni</coptic>",
+      "ans":"a"
+    },
+    {
+      "question":"What is the plural definite article in Coptic?",
+      "type":"mc",
+      "a":"<coptic>pi</coptic>",
+      "b":"<coptic>ni</coptic>",
+      "c":"<coptic>ti</coptic>",
+      "d":"<coptic>han</coptic>",
+      "ans":"b"
+    },
+    {
+      "question":"To say 'a cat' in Coptic, you would say <coptic>ousau</coptic>.",
+      "type":"tf",
+      "t":"True",
+      "f":"False",
+      "ans":"t"
+    }
+  ]
+}

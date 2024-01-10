@@ -1,0 +1,243 @@
+body.lightTheme{
+  color:black;
+  background:white;
+  transition:200ms;
+}
+body.darkTheme{
+  color:white;
+  background:#222;
+  transition:200ms;
+}
+
+li, a , button, h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 30px 5%;
+}
+
+#logo{
+  height:100%;
+  width:55%;
+  cursor: pointer;
+  font-size: 2vw;
+  display:flex;
+  justify-content: center;
+  border: 0px none;
+  background: rgba(0, 0, 0, 0);
+  transition: color 200ms;
+}
+#logo:active #hide{
+  max-width:100%;
+}
+#logo.lightTheme h1{
+  color:black;
+}
+#logo.darkTheme h1{
+  color:white;
+}
+
+#hide {
+  display: inline-block;
+  max-width: 0%;
+  vertical-align: bottom;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 1.5s;
+}
+
+h1{
+  display: flex;
+}
+
+h1:hover #hide {
+  max-width: 100%;
+}
+
+#modes{
+  transition:200ms;
+  border:0px none;
+  font-size:3vh;
+  background:none;
+  cursor:pointer;
+}
+#account{
+  border-radius:10px;
+  border: 0px none;
+  background:#c7c7c7;
+  color:black;
+  height: fit-content;
+  padding: 1vh 1.5vh;
+  font-size:2.5vh;
+  transition:200ms;
+}
+#account:hover{
+  cursor:pointer;
+}
+#account.darkTheme{
+  background:#373737;
+  color:white;
+}
+.bQuiz.darkTheme{
+  background:#252525;
+  color:white;
+}
+#account.lightTheme, .bQuiz.lightTheme{
+  background:#c7c7c7;
+  color:black;
+}
+
+/*main*/
+#main{
+  border:0px none;
+  width: 90vw;
+  height: fit-content;
+  background: #ddd5;
+  border-radius: 10px;
+  overflow:auto;
+  margin: 1em auto;
+}
+#main.darkTheme{
+  background:#373737;
+}
+#main.lightTheme{
+  background:#ddd5;
+}
+.top{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.title{
+  font-size:3.5vh;
+  padding: 2vh 2vh .5vh;
+}
+.time, .difficulty{
+  font-size:2vh;
+  padding: 0px 2vh;
+}
+.difficulty{
+  background: url(../img/icons/speed.svg) center bottom/100% 80% no-repeat transparent;
+  width: 3em;
+  height: 1.5em;
+  display: inline;
+  padding-top: 0.8vh;
+  text-align: center;
+  font-size: 1.5vh;
+}
+.sub{
+  border-bottom: 1px dashed #7d7d7d;
+  display:flex;
+  flex-direction: row;
+  padding: 0px 0px 1vh;
+}
+#images{
+  border-bottom: 1px dashed #7d7d7d;
+}
+.letter{
+  padding: 1vh 1vh;
+  width:7vh;
+  height:7vh;
+  cursor:pointer;
+}
+.bottom{
+  display:flex;
+  justify-content:center;
+}
+.bQuiz{
+  font-size: 2vh;
+  margin:2vh 0px;
+  border-radius:10px;
+  border: 0px none;
+  padding: 1vh 1vh;
+}
+.bQuiz:hover{
+  cursor:pointer;
+}
+#images{
+  align-items:center; /*doesnt do anything...*/
+}
+
+
+coptic{
+  background:grey;
+  border-radius:3px;
+  color: white;
+  padding: .1vh .75vw;
+}
+vocab{
+  background:#78a7bf;
+  border-radius:3px;
+  color: white;
+  padding: .1vh .75vw;
+}
+
+.bodyText{
+  margin: 8px auto;
+  width: 95%;
+  line-height: 1.25em;
+}
+
+/*coptic reader styles*/
+.copticView{
+  width:95%;
+  margin: 0 auto;
+  border-radius:.7em;
+  background:#cfccbb;
+  overflow:clip;
+}
+.cvHeader{
+  width:100%;
+  height:fit-content;
+  padding:.5em;
+  background: #2f415c;
+  color:white;
+  transition:200ms;
+}
+body.darkTheme .cvHeader{
+  background:#404040;
+}
+body.darkTheme .cvContent{
+  background:black;
+}
+.cvContent{
+  display:flex;
+  justify-content:space-bewteen;
+  font-size:1em;
+}
+.cvContent div{
+  flex-grow: 1;
+  padding: 0.5em;
+  flex-basis: 0;
+}
+.cvContent .coptic{
+  font-family:"Coptic1";
+  font-size:1.2em;
+}
+
+h2{
+  padding:1.5vh 0px;
+}
+
+@media (max-width: 450px){
+  #logo{
+    font-size: 2.5vw;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 6% 0px 10%;
+  }
+    #account{
+    padding: .5vh 1vh;
+    font-size:2vh;  
+  } 
+  #modes{
+    font-size:2.5vh
+  }
+}

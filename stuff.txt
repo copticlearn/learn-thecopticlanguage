@@ -1,0 +1,23 @@
+logo text thing: https://codepen.io/shetty-tejas/pen/wvdVLwB
+scrolling divs: https://stackoverflow.com/questions/9811465/scrollable-div-inside-container
+Circular progress: https://nikitahl.com/circle-progress-bar-css
+Even spacing: https://stackoverflow.com/questions/7245018/how-to-evenly-distribute-elements-in-a-div-next-to-each-other
+css variables: https://www.w3schools.com/css/css3_variables_javascript.asp
+Login/Signup inspiration: https://codepen.io/sowg/pen/qBXjXoE
+Ternary operators: https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript
+placeholder text: https://stackoverflow.com/questions/13071791/background-text-in-input-type-text
+Placeholder text: https://www.w3schools.com/howto/howto_css_placeholder.asp
+URL Parameters: https://www.sitepoint.com/get-url-parameters-with-javascript/
+Open link in new tab: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
+TTS: https://dev.to/asaoluelijah/text-to-speech-in-3-lines-of-javascript-b8h
+
+TODO:
+-https://stackoverflow.com/questions/17502071/transfer-data-from-one-html-file-to-another
+-Text formatting/highlighting
+-points system
+-Friends Leaderboard?
+-spedometer
+-Dynamic Text Sizing: https://levelup.gitconnected.com/dynamic-element-scaling-in-css-7e35ed9a3914
+-Dark mode selector thing?: https://www.cssscript.com/dark-light-theme-toggle/
+-Coptic Reader quotes thingy  check
+-svg for progress bars & animation

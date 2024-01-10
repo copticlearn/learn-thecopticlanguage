@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+@font-face {
+  font-family: 'Coptic1';
+  src: url(../fonts/Coptic1.ttf) format('truetype');
+  unicode-range: U+0000-00FF;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body.lightTheme{
+  color:black;
+  background:white;
+  transition:200ms;
+}
+body.darkTheme{
+  color:white;
+  background:#222;
+  transition:200ms;
+}
+
+li, a , button, h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+button {
+  color:inherit;
+}
+
+a{
+  color: #00d9ff;
+}
+
+coptic{
+  font-family: "Coptic1", sans-serif;
+}
